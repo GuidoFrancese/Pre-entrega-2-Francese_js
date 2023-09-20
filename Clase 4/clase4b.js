@@ -33,7 +33,7 @@ function calcular_cuota( precio , cuotas ){
 
 
 
-//LOGICA IU COMPRA
+
 let precio_lampara_lista = 1000;
 let cuotas = prompt("Ingrese la cantidad de cuotas:1,3,6 o 12");
 

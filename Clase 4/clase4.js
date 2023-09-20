@@ -1,27 +1,20 @@
-/*
 
-function saludar_usuario( nombre_usuario ){
+
+// function saludar_usuario( nombre_usuario ){
 
     
-    console.log("Bienvenido/a: ", nombre_usuario);
+//     console.log("Bienvenido/a: ", nombre_usuario);
 
-}
-
-
+// }
 
 
 
+// saludar_usuario("Pepe");
+// saludar_usuario("Laura");
+//LLAMAR FUNCTION//
+// let nombre = Marcos;
+// saludar_usuario(nombre);
 
-
-
-//LLAMAR FUNCTION
-let nombre = "Marcos";
-saludar_usuario(nombre);
-
-saludar_usuario("Pepe");
-saludar_usuario("Laura");
-
-*/
 
 
 
@@ -30,27 +23,27 @@ saludar_usuario("Laura");
 //Param: edad(int)
 
 
-/*
-function mayorDeEdad( edad_usuario ){
 
-    if( edad_usuario >= 18 ){
-        console.log("ES MAYOR DE EDAD");
-    }
-    else{
-        console.log("NO ES MAYOR DE EDAD");
-    }
+// function mayorDeEdad( edad_usuario ){
 
-}
+//     if( edad_usuario >= 18 ){
+//         console.log("ES MAYOR DE EDAD");
+//     }
+//     else{
+//         console.log("NO ES MAYOR DE EDAD");
+//     }
 
-
+// }
 
 
-mayorDeEdad(10);
-mayorDeEdad(20);
-mayorDeEdad(55);
-mayorDeEdad(2);
 
-*/
+
+// mayorDeEdad(10);
+// mayorDeEdad(20);
+// mayorDeEdad(55);
+// mayorDeEdad(2);
+
+
 
 
 
@@ -59,26 +52,44 @@ mayorDeEdad(2);
 //Params: numUno , numDos
 
 
-function sumaDosNumeros( numUno , numDos ){
+// function sumaDosNumeros( numUno , numDos ){
 
-    if( typeof(numUno) == "number" && typeof(numDos) == "number" ){
-        let suma = numUno + numDos;
-        console.log("El resultado de la suma es: ", suma);
-    }
-    else{
-        console.log("Solo se aceptan numeros");
-    }
+//     if( typeof(numUno) == "number" && typeof(numDos) == "number" ){
+//         let suma = numUno + numDos;
+//         console.log("El resultado de la suma es: ", suma);
+//     }
+//     else{
+//         console.log("Solo se aceptan numeros");
+//     }
     
 
+// }
+
+
+
+
+// sumaDosNumeros(30,40);
+// sumaDosNumeros(100,50);
+// sumaDosNumeros(80,29);
+// sumaDosNumeros("Jose" , "Pedro");
+
+function restaDosNumeros(numuno, numdos) {
+    if (typeof(numuno) === "number" && typeof(numdos) === "number") {
+        let resta = numuno - numdos;
+        console.log("El resultado de la resta es:", resta);
+    } 
+    else {
+        console.log("Solo se aceptan números");
+    }
 }
 
+restaDosNumeros(100, 90);
+restaDosNumeros(37482, 5637);
+restaDosNumeros(100020, 6672);
+restaDosNumeros("Raul", "Enrique");
 
 
 
-sumaDosNumeros(30,40);
-sumaDosNumeros(100,50);
-sumaDosNumeros(80,29);
-sumaDosNumeros("Jose" , "Pedro");
 
 
 

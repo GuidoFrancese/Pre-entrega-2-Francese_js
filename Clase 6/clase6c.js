@@ -8,7 +8,7 @@ class Alumno{
 
 }
 
-/*
+
 let listaAlumnos = [];
 
 for( let i = 0 ; i < 3 ; i = i + 1){
@@ -27,11 +27,11 @@ for( let i = 0 ; i < 3 ; i = i + 1){
 console.log(listaAlumnos);
 
 
-*/
 
-let listaAlumnos = ["Pepe" , "Ramiro" , "Laura"];
 
-for( let nombre_alumno of listaAlumnos ){
+// let listaAlumnos = ["Pepe" , "Ramiro" , "Laura"];
 
-    console.log("Hola bienvenido/a:" , nombre_alumno);
-}
+// for( let nombre_alumno of listaAlumnos ){
+
+//     console.log("Hola bienvenido/a:" , nombre_alumno);
+// } 

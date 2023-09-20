@@ -25,6 +25,13 @@ let auto_dos = {
     patente:"GTR123"
 };
 
+let autotres = {
+    color: "Naranja",
+    marca: "ford",
+    duenio: "marcelo",
+    patente: "aa 123 de"
+}
+
 
 
 console.log( auto_uno );
@@ -37,3 +44,10 @@ console.log("Patente: " , auto_uno.patente );
 console.log("Datos del Auto dos");
 console.log("Patente: " , auto_dos.patente );
 console.log("Marca: ", auto_dos.marca);
+
+
+console.log("Datos del auto tres")
+console.log("color:" , autotres.color);
+console.log("marca:" , autotres.marca );
+console.log("duenio:" , autotres.duenio);
+console.log("patente:" , autotres.patente);
